@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ouiatenon Systems</title>
+  <meta name="description" content="Ouiatenon Systems builds AI-assisted tooling for civil engineering design, starting with natural-language workflows inside Autodesk Civil 3D.">
+  <meta property="og:title" content="Ouiatenon Systems">
+  <meta property="og:description" content="AI-assisted tooling for civil engineering design.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/" aria-label="Ouiatenon Systems home">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="29" height="29" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M6 22c4-1 6-6 10-6s6 4 10 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M6 15c4-1 6-5 10-5s6 3 10 2" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>Ouiatenon Systems</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#approach">Approach</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <svg class="contours" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1">
+          <path d="M-20 420 C120 380 200 300 330 310 S560 400 820 330"/>
+          <path d="M-20 380 C110 340 210 260 340 270 S560 360 820 290"/>
+          <path d="M-20 340 C100 300 220 220 350 230 S560 320 820 250"/>
+          <path d="M-20 300 C90 260 230 180 360 190 S570 280 820 210"/>
+          <path d="M-20 260 C80 220 240 140 370 150 S580 240 820 170"/>
+          <path d="M-20 220 C70 180 250 100 380 112 S590 200 820 130"/>
+          <path d="M-20 180 C60 140 260 64 390 76 S600 160 820 92"/>
+          <path d="M-20 140 C50 100 270 30 400 42 S610 120 820 56"/>
+        </g>
+      </svg>
+      <div class="hero-inner">
+        <p class="eyebrow">Civil engineering software · Indiana</p>
+        <h1>Describe the design.<br>Let the drawing follow.</h1>
+        <p class="lede">Ouiatenon Systems builds AI-assisted tools for civil engineers, starting with natural-language workflows inside Autodesk Civil&nbsp;3D.</p>
+        <div class="cta">
+          <a class="btn" href="#work">See what we're building</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="band">
+      <div class="wrap two">
+        <div>
+          <p class="label">01 — Current work</p>
+          <h2>Civil3D-AI</h2>
+        </div>
+        <div class="prose">
+          <p>A Civil&nbsp;3D add-in that lets an engineer say what they need in plain language and have it carried out in the drawing they already have open.</p>
+          <p>The goal is to take repetitive drafting and setup work off the engineer's plate, so more of the day goes to the engineering itself.</p>
+          <dl class="status">
+            <div><dt>Stage</dt><dd>MVP in development</dd></div>
+            <div><dt>Platform</dt><dd>Autodesk Civil&nbsp;3D</dd></div>
+            <div><dt>Next</dt><dd>Pilot with a working civil engineering firm</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach" class="band alt">
+      <div class="wrap">
+        <p class="label">02 — Approach</p>
+        <h2>Built from the drafting table out</h2>
+        <ol class="principles">
+          <li>
+            <span class="num">A</span>
+            <h3>Start from real workflows</h3>
+            <p>Tools are shaped by time spent in a civil engineering office, not by guesses about what engineers do.</p>
+          </li>
+          <li>
+            <span class="num">B</span>
+            <h3>Engineers stay in charge</h3>
+            <p>Software should do the tedious parts and leave judgment, review and sign-off with the people accountable for the design.</p>
+          </li>
+          <li>
+            <span class="num">C</span>
+            <h3>Fit the tools you already use</h3>
+            <p>Work happens inside Civil&nbsp;3D and existing drawings, so there's nothing new to migrate to.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about" class="band">
+      <div class="wrap two">
+        <div>
+          <p class="label">03 — About</p>
+          <h2>The name</h2>
+        </div>
+        <div class="prose">
+          <p>Ouiatenon was an 18th-century trading post on the Wabash River near present-day Lafayette, Indiana: a place where people, goods and ideas met.</p>
+          <p>Ouiatenon Systems LLC is an independent software company based in Indiana.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <span>© <span id="yr">2026</span> Ouiatenon Systems LLC</span>
+      <span class="coords">40.40° N · 86.95° W</span>
+    </div>
+  </footer>
+
+  <script>
+    try { document.getElementById('yr').textContent = new Date().getFullYear(); } catch (e) {}
+  </script>
+</body>
+</html>
